@@ -1,0 +1,61 @@
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "fuzzy": {
+            "title": {
+              "value": "pythn",
+              "fuzziness": 2,
+              "prefix_length": 1,
+              "max_expansions": 50
+            }
+          }
+        },
+        {
+          "fuzzy": {
+            "title": {
+              "value": "machne",
+              "fuzziness": "AUTO",
+              "prefix_length": 0
+            }
+          }
+        },
+        {
+          "fuzzy": {
+            "title": {
+              "value": "lerning",
+              "fuzziness": "AUTO"
+            }
+          }
+        },
+        {
+          "fuzzy": {
+            "author": {
+              "value": "admin",
+              "fuzziness": 1
+            }
+          }
+        }
+      ],
+      "minimum_should_match": 1
+    }
+  },
+  "size": 10,
+  "highlight": {
+    "fields": {
+      "title": {
+        "type": "unified",
+        "pre_tags": ["<em>"],
+        "post_tags": ["</em>"]
+      }
+    }
+  },
+  "_source": ["id", "title", "author", "score", "comments_count"],
+  "sort": [
+    "_score",
+    {
+      "score": "desc"
+    }
+  ]
+}

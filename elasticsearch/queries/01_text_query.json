@@ -1,0 +1,40 @@
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "title": {
+              "query": "AI artificial intelligence machine learning",
+              "operator": "or",
+              "fuzziness": "AUTO"
+            }
+          }
+        },
+        {
+          "match": {
+            "title": {
+              "query": "python programming",
+              "boost": 2.0
+            }
+          }
+        }
+      ],
+      "minimum_should_match": 1
+    }
+  },
+  "size": 20,
+  "sort": [
+    {
+      "score": {
+        "order": "desc"
+      }
+    },
+    {
+      "@timestamp": {
+        "order": "desc"
+      }
+    }
+  ],
+  "_source": ["id", "title", "author", "score", "comments_count", "domain", "created_at", "url"]
+}

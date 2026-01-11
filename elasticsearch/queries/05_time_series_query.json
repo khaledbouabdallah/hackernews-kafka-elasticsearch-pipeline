@@ -1,0 +1,79 @@
+{
+  "size": 0,
+  "query": {
+    "range": {
+      "@timestamp": {
+        "gte": "now-24h/h",
+        "lte": "now/h"
+      }
+    }
+  },
+  "aggs": {
+    "stories_over_time": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "calendar_interval": "hour",
+        "time_zone": "Europe/Paris",
+        "min_doc_count": 0,
+        "extended_bounds": {
+          "min": "now-24h/h",
+          "max": "now/h"
+        }
+      },
+      "aggs": {
+        "story_types": {
+          "terms": {
+            "field": "type",
+            "size": 5
+          }
+        },
+        "avg_score": {
+          "avg": {
+            "field": "score"
+          }
+        },
+        "avg_trending_score": {
+          "avg": {
+            "field": "trending_score"
+          }
+        },
+        "total_comments": {
+          "sum": {
+            "field": "comments_count"
+          }
+        },
+        "cumulative_stories": {
+          "cumulative_sum": {
+            "buckets_path": "_count"
+          }
+        }
+      }
+    },
+    "daily_summary": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "calendar_interval": "day",
+        "time_zone": "Europe/Paris",
+        "format": "yyyy-MM-dd"
+      },
+      "aggs": {
+        "domains_per_day": {
+          "cardinality": {
+            "field": "domain"
+          }
+        },
+        "authors_per_day": {
+          "cardinality": {
+            "field": "author"
+          }
+        },
+        "top_domain_daily": {
+          "terms": {
+            "field": "domain",
+            "size": 1
+          }
+        }
+      }
+    }
+  }
+}

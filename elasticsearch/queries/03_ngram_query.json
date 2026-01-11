@@ -1,0 +1,42 @@
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "title.ngram": {
+              "query": "prog",
+              "minimum_should_match": "75%"
+            }
+          }
+        },
+        {
+          "match": {
+            "title.ngram": {
+              "query": "java",
+              "boost": 1.5
+            }
+          }
+        },
+        {
+          "match": {
+            "title.ngram": {
+              "query": "data"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "size": 15,
+  "highlight": {
+    "fields": {
+      "title": {
+        "pre_tags": ["<strong>"],
+        "post_tags": ["</strong>"]
+      }
+    }
+  },
+  "_source": ["id", "title", "author", "score", "domain", "type"],
+  "explain": false
+}

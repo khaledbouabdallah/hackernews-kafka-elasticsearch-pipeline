@@ -1,0 +1,780 @@
+{
+  "took" : 15,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1150,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571166",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:48:30.232694",
+          "trending_score" : 0.14,
+          "tags" : [
+            "show_hn"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:46:58.000Z",
+          "type" : "show",
+          "domain" : null,
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:46:58.000Z",
+          "engagement_rate" : 0.0,
+          "url" : null,
+          "author" : "goose0004",
+          "created_at" : "2026-01-10T23:46:58",
+          "id" : "46571166",
+          "title" : "Show HN: GlyphLang – An AI-first programming language",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571166\", \"type\": \"show\", \"author\": \"goose0004\", \"title\": \"Show HN: GlyphLang \\u2013 An AI-first programming language\", \"url\": null, \"domain\": null, \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:46:58\", \"collected_at\": \"2026-01-10T23:48:30.232694\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "goose0004"
+        },
+        "sort" : [
+          1768088910232
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571174",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:48:29.884719",
+          "trending_score" : 0.14,
+          "tags" : [
+            "video",
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:47:48.000Z",
+          "type" : "story",
+          "domain" : "youtube.com",
+          "domain_name" : "youtube.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:47:48.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.youtube.com/watch?v=xldMXTPGMGI",
+          "author" : "rasengan0",
+          "created_at" : "2026-01-10T23:47:48",
+          "id" : "46571174",
+          "title" : "Carina Hong of Axiom Math at the Neuron",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571174\", \"type\": \"story\", \"author\": \"rasengan0\", \"title\": \"Carina Hong of Axiom Math at the Neuron\", \"url\": \"https://www.youtube.com/watch?v=xldMXTPGMGI\", \"domain\": \"youtube.com\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:47:48\", \"collected_at\": \"2026-01-10T23:48:29.884719\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "rasengan0"
+        },
+        "sort" : [
+          1768088909884
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571149",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:46:28.961430",
+          "trending_score" : 0.14,
+          "tags" : [
+            "show_hn"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:45:25.000Z",
+          "type" : "show",
+          "domain" : null,
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:45:25.000Z",
+          "engagement_rate" : 0.0,
+          "url" : null,
+          "author" : "jamesponddotco",
+          "created_at" : "2026-01-10T23:45:25",
+          "id" : "46571149",
+          "title" : "Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571149\", \"type\": \"show\", \"author\": \"jamesponddotco\", \"title\": \"Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more\", \"url\": null, \"domain\": null, \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:45:25\", \"collected_at\": \"2026-01-10T23:46:28.961430\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "jamesponddotco"
+        },
+        "sort" : [
+          1768088788961
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571158",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:46:28.601655",
+          "trending_score" : 0.14,
+          "tags" : [
+            "show_hn"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:46:18.000Z",
+          "type" : "show",
+          "domain" : "thetabber.com",
+          "domain_name" : "thetabber.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:46:18.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://thetabber.com/",
+          "author" : "dibasdauliya",
+          "created_at" : "2026-01-10T23:46:18",
+          "id" : "46571158",
+          "title" : "Show HN: TheTabber – Create, repurpose, and post across 9 platforms",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571158\", \"type\": \"show\", \"author\": \"dibasdauliya\", \"title\": \"Show HN: TheTabber \\u2013 Create, repurpose, and post across 9 platforms\", \"url\": \"https://thetabber.com/\", \"domain\": \"thetabber.com\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:46:18\", \"collected_at\": \"2026-01-10T23:46:28.601655\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "dibasdauliya"
+        },
+        "sort" : [
+          1768088788601
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571143",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:45:27.774792",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:44:37.000Z",
+          "type" : "story",
+          "domain" : "acbart.github.io",
+          "domain_name" : "acbart.github.io",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:44:37.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://acbart.github.io/cocopilot/",
+          "author" : "acbart",
+          "created_at" : "2026-01-10T23:44:37",
+          "id" : "46571143",
+          "title" : "Cocopilot: Self-Updating Repository",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571143\", \"type\": \"story\", \"author\": \"acbart\", \"title\": \"Cocopilot: Self-Updating Repository\", \"url\": \"https://acbart.github.io/cocopilot/\", \"domain\": \"acbart.github.io\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:44:37\", \"collected_at\": \"2026-01-10T23:45:27.774792\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "acbart"
+        },
+        "sort" : [
+          1768088727774
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571121",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:41:26.074936",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:39:52.000Z",
+          "type" : "story",
+          "domain" : "nonzerosum.games",
+          "domain_name" : "nonzerosum.games",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:39:52.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://nonzerosum.games/polymaths1.html",
+          "author" : "samixg",
+          "created_at" : "2026-01-10T23:39:52",
+          "id" : "46571121",
+          "title" : "Polymaths: An Argument for Analogies",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571121\", \"type\": \"story\", \"author\": \"samixg\", \"title\": \"Polymaths: An Argument for Analogies\", \"url\": \"https://nonzerosum.games/polymaths1.html\", \"domain\": \"nonzerosum.games\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:39:52\", \"collected_at\": \"2026-01-10T23:41:26.074936\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "samixg"
+        },
+        "sort" : [
+          1768088486074
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571126",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:41:25.704169",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:40:36.000Z",
+          "type" : "story",
+          "domain" : "science.org",
+          "domain_name" : "science.org",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:40:36.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.science.org/doi/10.1126/sciadv.adz0817",
+          "author" : "gnabgib",
+          "created_at" : "2026-01-10T23:40:36",
+          "id" : "46571126",
+          "title" : "Disaggregated machine learning via in-physics computing at radio frequency",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571126\", \"type\": \"story\", \"author\": \"gnabgib\", \"title\": \"Disaggregated machine learning via in-physics computing at radio frequency\", \"url\": \"https://www.science.org/doi/10.1126/sciadv.adz0817\", \"domain\": \"science.org\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:40:36\", \"collected_at\": \"2026-01-10T23:41:25.704169\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "gnabgib"
+        },
+        "sort" : [
+          1768088485704
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571116",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:40:25.002223",
+          "trending_score" : 0.14,
+          "tags" : [
+            "blog",
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:39:24.000Z",
+          "type" : "story",
+          "domain" : "medium.com",
+          "domain_name" : "medium.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:39:24.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://medium.com/@chipmunkworks/ai-the-will-hunting-of-our-age-59952c1744f1",
+          "author" : "treelover",
+          "created_at" : "2026-01-10T23:39:24",
+          "id" : "46571116",
+          "title" : "The \"Good Will Hunting\" Problem in Generative AI",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571116\", \"type\": \"story\", \"author\": \"treelover\", \"title\": \"The \\\"Good Will Hunting\\\" Problem in Generative AI\", \"url\": \"https://medium.com/@chipmunkworks/ai-the-will-hunting-of-our-age-59952c1744f1\", \"domain\": \"medium.com\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:39:24\", \"collected_at\": \"2026-01-10T23:40:25.002223\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "treelover"
+        },
+        "sort" : [
+          1768088425002
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571103",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:38:23.838768",
+          "trending_score" : 0.14,
+          "tags" : [
+            "show_hn"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:37:26.000Z",
+          "type" : "show",
+          "domain" : "bridgerust.dev",
+          "domain_name" : "bridgerust.dev",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:37:26.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.bridgerust.dev/embex/introduction/",
+          "author" : "mimchak",
+          "created_at" : "2026-01-10T23:37:26",
+          "id" : "46571103",
+          "title" : "Show HN: Embex – 9K downloads in 2 weeks, a universal ORM for vector databases",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571103\", \"type\": \"show\", \"author\": \"mimchak\", \"title\": \"Show HN: Embex \\u2013 9K downloads in 2 weeks, a universal ORM for vector databases\", \"url\": \"https://www.bridgerust.dev/embex/introduction/\", \"domain\": \"bridgerust.dev\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:37:26\", \"collected_at\": \"2026-01-10T23:38:23.838768\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "mimchak"
+        },
+        "sort" : [
+          1768088303838
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571095",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:37:23.057784",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:36:16.000Z",
+          "type" : "story",
+          "domain" : "brown.edu",
+          "domain_name" : "brown.edu",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:36:16.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.brown.edu/news/2026-01-07/private-equity-autism-centers",
+          "author" : "hhs",
+          "created_at" : "2026-01-10T23:36:16",
+          "id" : "46571095",
+          "title" : "Private equity firms acquired more than 500 autism centers in past decade: study",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571095\", \"type\": \"story\", \"author\": \"hhs\", \"title\": \"Private equity firms acquired more than 500 autism centers in past decade: study\", \"url\": \"https://www.brown.edu/news/2026-01-07/private-equity-autism-centers\", \"domain\": \"brown.edu\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:36:16\", \"collected_at\": \"2026-01-10T23:37:23.057784\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "hhs"
+        },
+        "sort" : [
+          1768088243057
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571099",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:37:22.643149",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:36:44.000Z",
+          "type" : "story",
+          "domain" : "github.blog",
+          "domain_name" : "github.blog",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:36:44.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://github.blog/open-source/maintainers/mcp-joins-the-linux-foundation-what-this-means-for-developers-building-the-next-era-of-ai-tools-and-agents/",
+          "author" : "raju",
+          "created_at" : "2026-01-10T23:36:44",
+          "id" : "46571099",
+          "title" : "MCP Joins the Linux Foundation",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571099\", \"type\": \"story\", \"author\": \"raju\", \"title\": \"MCP Joins the Linux Foundation\", \"url\": \"https://github.blog/open-source/maintainers/mcp-joins-the-linux-foundation-what-this-means-for-developers-building-the-next-era-of-ai-tools-and-agents/\", \"domain\": \"github.blog\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:36:44\", \"collected_at\": \"2026-01-10T23:37:22.643149\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "raju"
+        },
+        "sort" : [
+          1768088242643
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571086",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:36:21.934561",
+          "trending_score" : 0.14,
+          "tags" : [
+            "github_story",
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:35:16.000Z",
+          "type" : "story",
+          "domain" : "github.com",
+          "domain_name" : "github.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:35:16.000Z",
+          "engagement_rate" : 1.0,
+          "url" : "https://github.com/boglim1984/functional-geometry-hebbian-manifold",
+          "author" : "boglim1984",
+          "created_at" : "2026-01-10T23:35:16",
+          "id" : "46571086",
+          "title" : "Mapping and editing learned functional geometry inside a CNN (with controls)",
+          "comments_count" : 1,
+          "event" : {
+            "original" : "{\"id\": \"46571086\", \"type\": \"story\", \"author\": \"boglim1984\", \"title\": \"Mapping and editing learned functional geometry inside a CNN (with controls)\", \"url\": \"https://github.com/boglim1984/functional-geometry-hebbian-manifold\", \"domain\": \"github.com\", \"score\": 1, \"comments_count\": 1, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:35:16\", \"collected_at\": \"2026-01-10T23:36:21.934561\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "boglim1984"
+        },
+        "sort" : [
+          1768088181934
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571077",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:35:21.347180",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:34:13.000Z",
+          "type" : "story",
+          "domain" : "science.org",
+          "domain_name" : "science.org",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:34:13.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.science.org/content/article/have-scientists-found-leonardo-da-vinci-s-dna",
+          "author" : "bookmtn",
+          "created_at" : "2026-01-10T23:34:13",
+          "id" : "46571077",
+          "title" : "The da Vinci Code: Quest to Identify Leonardo da Vinci's DNA",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46571077\", \"type\": \"story\", \"author\": \"bookmtn\", \"title\": \"The da Vinci Code: Quest to Identify Leonardo da Vinci's DNA\", \"url\": \"https://www.science.org/content/article/have-scientists-found-leonardo-da-vinci-s-dna\", \"domain\": \"science.org\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:34:13\", \"collected_at\": \"2026-01-10T23:35:21.347180\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "bookmtn"
+        },
+        "sort" : [
+          1768088121347
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571078",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:35:20.992189",
+          "trending_score" : 0.14,
+          "tags" : [
+            "github_story",
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T23:34:15.000Z",
+          "type" : "story",
+          "domain" : "github.com",
+          "domain_name" : "github.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T23:34:15.000Z",
+          "engagement_rate" : 1.0,
+          "url" : "https://github.com/jgarzik/sqawk/tree/v0.8.0",
+          "author" : "jgarzik",
+          "created_at" : "2026-01-10T23:34:15",
+          "id" : "46571078",
+          "title" : "CFT: \"sqawk\" 0.8.0 – optimized SQL Awk utility with Rust's sqlparser",
+          "comments_count" : 1,
+          "event" : {
+            "original" : "{\"id\": \"46571078\", \"type\": \"story\", \"author\": \"jgarzik\", \"title\": \"CFT: \\\"sqawk\\\" 0.8.0 \\u2013 optimized SQL Awk utility with Rust's sqlparser\", \"url\": \"https://github.com/jgarzik/sqawk/tree/v0.8.0\", \"domain\": \"github.com\", \"score\": 1, \"comments_count\": 1, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T23:34:15\", \"collected_at\": \"2026-01-10T23:35:20.992189\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "jgarzik"
+        },
+        "sort" : [
+          1768088120992
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570577",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:34:20.165786",
+          "trending_score" : 0.27,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T22:30:51.000Z",
+          "type" : "story",
+          "domain" : "stjude.org",
+          "domain_name" : "stjude.org",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T22:30:51.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.stjude.org/media-resources/news-releases/2026-medicine-science-news/retrotransposon-drives-cancer-by-altering-3d-genome-structure.html",
+          "author" : "birriel",
+          "created_at" : "2026-01-10T22:30:51",
+          "id" : "46570577",
+          "title" : "Retrotransposon drives cancer by altering 3D genome structure",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46570577\", \"type\": \"story\", \"author\": \"birriel\", \"title\": \"Retrotransposon drives cancer by altering 3D genome structure\", \"url\": \"https://www.stjude.org/media-resources/news-releases/2026-medicine-science-news/retrotransposon-drives-cancer-by-altering-3d-genome-structure.html\", \"domain\": \"stjude.org\", \"score\": 2, \"comments_count\": 0, \"trending_score\": 0.27, \"created_at\": \"2026-01-10T22:30:51\", \"collected_at\": \"2026-01-10T23:34:20.165786\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 2,
+          "pipeline_version" : "2.0",
+          "author_username" : "birriel"
+        },
+        "sort" : [
+          1768088060165
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570584",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:34:19.797293",
+          "trending_score" : 0.4,
+          "tags" : [
+            "show_hn"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T22:31:37.000Z",
+          "type" : "show",
+          "domain" : null,
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T22:31:37.000Z",
+          "engagement_rate" : 0.67,
+          "url" : null,
+          "author" : "rainliu",
+          "created_at" : "2026-01-10T22:31:37",
+          "id" : "46570584",
+          "title" : "Show HN: webrtc-rs/rtc – A Sans-I/O WebRTC Stack for Rust",
+          "comments_count" : 2,
+          "event" : {
+            "original" : "{\"id\": \"46570584\", \"type\": \"show\", \"author\": \"rainliu\", \"title\": \"Show HN: webrtc-rs/rtc \\u2013 A Sans-I/O WebRTC Stack for Rust\", \"url\": null, \"domain\": null, \"score\": 3, \"comments_count\": 2, \"trending_score\": 0.4, \"created_at\": \"2026-01-10T22:31:37\", \"collected_at\": \"2026-01-10T23:34:19.797293\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 3,
+          "pipeline_version" : "2.0",
+          "author_username" : "rainliu"
+        },
+        "sort" : [
+          1768088059797
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570585",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:34:19.429863",
+          "trending_score" : 0.13,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T22:31:45.000Z",
+          "type" : "story",
+          "domain" : "mooreds.com",
+          "domain_name" : "mooreds.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T22:31:45.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.mooreds.com/wordpress/archives/3725",
+          "author" : "mooreds",
+          "created_at" : "2026-01-10T22:31:45",
+          "id" : "46570585",
+          "title" : "MVP = Embarrassing",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46570585\", \"type\": \"story\", \"author\": \"mooreds\", \"title\": \"MVP = Embarrassing\", \"url\": \"https://www.mooreds.com/wordpress/archives/3725\", \"domain\": \"mooreds.com\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.13, \"created_at\": \"2026-01-10T22:31:45\", \"collected_at\": \"2026-01-10T23:34:19.429863\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "mooreds"
+        },
+        "sort" : [
+          1768088059429
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570590",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:34:19.055015",
+          "trending_score" : 0.41,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T22:32:14.000Z",
+          "type" : "story",
+          "domain" : "france24.com",
+          "domain_name" : "france24.com",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T22:32:14.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.france24.com/en/middle-east/20260110-iran-s-revolutionary-guards-declare-red-line-on-security-as-protests-mount",
+          "author" : "mooreds",
+          "created_at" : "2026-01-10T22:32:14",
+          "id" : "46570590",
+          "title" : "Iran's Revolutionary Guards declare 'red line' on security as protests escalate",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46570590\", \"type\": \"story\", \"author\": \"mooreds\", \"title\": \"Iran's Revolutionary Guards declare 'red line' on security as protests escalate\", \"url\": \"https://www.france24.com/en/middle-east/20260110-iran-s-revolutionary-guards-declare-red-line-on-security-as-protests-mount\", \"domain\": \"france24.com\", \"score\": 3, \"comments_count\": 0, \"trending_score\": 0.41, \"created_at\": \"2026-01-10T22:32:14\", \"collected_at\": \"2026-01-10T23:34:19.055015\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 3,
+          "pipeline_version" : "2.0",
+          "author_username" : "mooreds"
+        },
+        "sort" : [
+          1768088059055
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570642",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:34:18.660364",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T22:38:55.000Z",
+          "type" : "story",
+          "domain" : "gojiberries.io",
+          "domain_name" : "gojiberries.io",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T22:38:55.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://www.gojiberries.io/out-of-context-constrained-tool-based-exploration-of-context/",
+          "author" : "neehao",
+          "created_at" : "2026-01-10T22:38:55",
+          "id" : "46570642",
+          "title" : "Out-of-Context: Constrained Tool Based Exploration of Context",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46570642\", \"type\": \"story\", \"author\": \"neehao\", \"title\": \"Out-of-Context: Constrained Tool Based Exploration of Context\", \"url\": \"https://www.gojiberries.io/out-of-context-constrained-tool-based-exploration-of-context/\", \"domain\": \"gojiberries.io\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T22:38:55\", \"collected_at\": \"2026-01-10T23:34:18.660364\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "neehao"
+        },
+        "sort" : [
+          1768088058660
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570656",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "collected_at" : "2026-01-10T23:34:18.323014",
+          "trending_score" : 0.14,
+          "tags" : [
+            "regular_story"
+          ],
+          "pipeline_stage" : "logstash",
+          "processed_at" : "2026-01-10T22:40:37.000Z",
+          "type" : "story",
+          "domain" : "forms.osv.llc",
+          "domain_name" : "forms.osv.llc",
+          "@version" : "1",
+          "@timestamp" : "2026-01-10T22:40:37.000Z",
+          "engagement_rate" : 0.0,
+          "url" : "https://forms.osv.llc/fellowships2026",
+          "author" : "cat-whisperer",
+          "created_at" : "2026-01-10T22:40:37",
+          "id" : "46570656",
+          "title" : "The O'Shaughnessy Fellowships and Grants Program",
+          "comments_count" : 0,
+          "event" : {
+            "original" : "{\"id\": \"46570656\", \"type\": \"story\", \"author\": \"cat-whisperer\", \"title\": \"The O'Shaughnessy Fellowships and Grants Program\", \"url\": \"https://forms.osv.llc/fellowships2026\", \"domain\": \"forms.osv.llc\", \"score\": 1, \"comments_count\": 0, \"trending_score\": 0.14, \"created_at\": \"2026-01-10T22:40:37\", \"collected_at\": \"2026-01-10T23:34:18.323014\", \"pipeline_version\": \"2.0\"}"
+          },
+          "score" : 1,
+          "pipeline_version" : "2.0",
+          "author_username" : "cat-whisperer"
+        },
+        "sort" : [
+          1768088058323
+        ]
+      }
+    ]
+  }
+}

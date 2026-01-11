@@ -1,0 +1,85 @@
+{
+  "took" : 27,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 3,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46570849",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "domain" : null,
+          "url" : null,
+          "author" : "SuboptimalEng",
+          "created_at" : "2026-01-10T23:02:48",
+          "id" : "46570849",
+          "title" : "Ask HN: If AI wins, don't AI companies lose?",
+          "comments_count" : 4,
+          "score" : 2
+        },
+        "sort" : [
+          2,
+          1768086168000
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571126",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "domain" : "science.org",
+          "url" : "https://www.science.org/doi/10.1126/sciadv.adz0817",
+          "author" : "gnabgib",
+          "created_at" : "2026-01-10T23:40:36",
+          "id" : "46571126",
+          "title" : "Disaggregated machine learning via in-physics computing at radio frequency",
+          "comments_count" : 0,
+          "score" : 1
+        },
+        "sort" : [
+          1,
+          1768088436000
+        ]
+      },
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571116",
+        "_score" : null,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "domain" : "medium.com",
+          "url" : "https://medium.com/@chipmunkworks/ai-the-will-hunting-of-our-age-59952c1744f1",
+          "author" : "treelover",
+          "created_at" : "2026-01-10T23:39:24",
+          "id" : "46571116",
+          "title" : "The \"Good Will Hunting\" Problem in Generative AI",
+          "comments_count" : 0,
+          "score" : 1
+        },
+        "sort" : [
+          1,
+          1768088364000
+        ]
+      }
+    ]
+  }
+}

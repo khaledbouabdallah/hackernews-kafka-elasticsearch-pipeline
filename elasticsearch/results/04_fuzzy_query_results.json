@@ -1,0 +1,43 @@
+{
+  "took" : 35,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1,
+      "relation" : "eq"
+    },
+    "max_score" : null,
+    "hits" : [
+      {
+        "_index" : "hackernews-stories-2026.01.10",
+        "_id" : "46571126",
+        "_score" : 5.2548285,
+        "_ignored" : [
+          "event.original.keyword"
+        ],
+        "_source" : {
+          "author" : "gnabgib",
+          "id" : "46571126",
+          "title" : "Disaggregated machine learning via in-physics computing at radio frequency",
+          "comments_count" : 0,
+          "score" : 1
+        },
+        "highlight" : {
+          "title" : [
+            "Disaggregated <em>machine</em> <em>learning</em> via in-physics computing at radio frequency"
+          ]
+        },
+        "sort" : [
+          5.2548285,
+          1
+        ]
+      }
+    ]
+  }
+}

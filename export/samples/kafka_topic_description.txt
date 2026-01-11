@@ -1,0 +1,2 @@
+Topic: hackernews-stories	TopicId: ymg-HW5JQfSXPJNdro5ZBQ	PartitionCount: 1	ReplicationFactor: 1	Configs: 
+	Topic: hackernews-stories	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
