@@ -26,6 +26,7 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_MESSAGE_MAX_BYTES: 5242880
     networks:
       - pipeline-network
 
@@ -105,15 +106,17 @@ services:
     build:
       context: ./api-collector
       dockerfile: Dockerfile
-    container_name: hn-collector
+    container_name: radiofrance-collector
     depends_on:
       - kafka
     environment:
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
-      - HN_API_BASE_URL=https://hacker-news.firebaseio.com/v0
-      - KAFKA_TOPIC=hackernews-stories
-      - POLL_INTERVAL=60
-      - MAX_STORIES_PER_POLL=30
+      - RADIOFRANCE_API_TOKEN=${RADIOFRANCE_API_KEY}
+      - RADIOFRANCE_API_URL=https://openapi.radiofrance.fr/v1/graphql
+      - KAFKA_TOPIC=radiofrance-live
+      - POLL_INTERVAL=300
+    env_file:
+      - .env
     networks:
       - pipeline-network
     restart: unless-stopped
