@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "aggs": {
+    "par_station": {
+      "terms": {
+        "field": "station_brand"
+      }
+    }
+  }
+}

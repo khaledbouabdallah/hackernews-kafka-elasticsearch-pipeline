@@ -1,0 +1,10 @@
+{
+  "query": {
+    "match": {
+      "episode_title": {
+        "query": "pholosophie", 
+        "fuzziness": "AUTO"
+      }
+    }
+  }
+}

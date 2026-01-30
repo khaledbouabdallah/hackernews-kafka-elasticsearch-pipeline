@@ -1,0 +1,17 @@
+{
+  "size": 0,
+  "query": {
+    "geo_distance": {
+      "distance": "20km",
+      "location": { "lat": 45.7640, "lon": 4.8357 }
+    }
+  },
+  "aggs": {
+    "timeline_regionale": {
+      "date_histogram": {
+        "field": "diffusion_date",
+        "calendar_interval": "day"
+      }
+    }
+  }
+}
